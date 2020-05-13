@@ -1,0 +1,26 @@
+{
+  "name": "eurosign",
+  "version": "1.0.0",
+  "description": "This_is_the_documentation_of_the_eurosign_API_you_can_download_all_of_our_SDK_in_this_page_",
+  "license": "Unlicense",
+  "main": "src/Eurosign/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "superagent": "3.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "expect.js": "~0.3.1",
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3"
+  }
+}
